@@ -52,9 +52,9 @@
                     <div class="header-right">
                         <ul class="list-unstyled list-inline">
                             <li class="dropdown dropdown-small">
-                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">moeda :</span><span class="value">BRL </span><b class="caret"></b></a>
+                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">moeda :</span><span class="value">KZ </span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">BRL</a></li>
+                                    <li><a href="#">KZ</a></li>
                                     <li><a href="#">USD</a></li>
                                 </ul>
                             </li>
@@ -79,13 +79,13 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="#"><img src="/res/site/img/logo.png"></a></h1>
+                        <h1><a href="/"><img src="/res/site/img/logo.png"></a></h1>
                     </div>
                 </div>
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="carrinho.html">Carrinho - <span class="cart-amunt">R$100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                        <a href="/cart">Carrinho - <span class="cart-amunt">R$100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
                     </div>
                 </div>
             </div>
@@ -105,9 +105,9 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="/">Home</a></li>
                         <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Carrinho</a></li>
+                        <li><a href="/cart">Carrinho</a></li>
                     </ul>
                 </div>  
             </div>
