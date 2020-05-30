@@ -17,6 +17,27 @@ class Product extends Model {
 
         }
 
+        public static function checkList($list)
+        {
+
+            foreach ($list as &$row) {
+                
+                $p = new Product();
+                $p->setData($row);
+                $row = $p->getValues();
+
+            }
+
+            return $list;
+
+        }
+
+        public static function formatPrice($vlprice){
+
+            
+
+        }
+
         public function save()
         {
 
