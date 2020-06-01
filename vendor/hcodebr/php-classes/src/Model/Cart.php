@@ -232,14 +232,14 @@ class Cart extends Model {
 
                 $result = $xml->Servicos->cServico;
 
-                if ($result->MsgErro != ''){
+                if($result->MsgErro != ''):
 
-                    Cart::setMsgError($result->MsgErro);
+                     Cart::setMsgError((string)$result->MsgErro);
 
-                } else {
-
-                    Cart::clearMsgError();
-                }
+                    else:
+                     Cart::clearMsgError();
+                     
+                    endif;
 
                 $this->setnrdays($result->PrazoEntrega);
                 $this->setvlfreight(Cart::formatValueToDecimal($result->Valor));
